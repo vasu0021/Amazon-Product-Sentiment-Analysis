@@ -1,15 +1,15 @@
-# 🛍️ Amazon Customer Reviews Sentiment Analysis
+#  Amazon Customer Reviews Sentiment Analysis
 
 This project performs sentiment analysis on Amazon product reviews using Natural Language Processing (NLP). The goal is to classify customer sentiments as **Positive**, **Negative**, or **Neutral** to better understand user satisfaction and feedback patterns.
 
-## 🎯 Objectives
+##  Objectives
 
 - Clean and preprocess Amazon review text data
 - Analyze word usage and review trends
 - Train a machine learning model to classify sentiment
 - Evaluate model performance using accuracy, precision, recall, and F1-score
 
-## 🧰 Technologies & Libraries
+## Technologies & Libraries
 
 - **Python**
 - **Pandas** – Data handling
@@ -26,7 +26,7 @@ This project performs sentiment analysis on Amazon product reviews using Natural
   - `Review` – Customer feedback  
   - `Sentiment` – Label (Positive, Negative, Neutral)  
 
-## 🧹 Text Preprocessing
+##  Text Preprocessing
 
 - Removed punctuation, numbers, and special characters
 - Converted to lowercase
@@ -34,34 +34,34 @@ This project performs sentiment analysis on Amazon product reviews using Natural
 - Tokenized and lemmatized words
 - Vectorized using TF-IDF or CountVectorizer
 
-## 🧠 Models Used
+##  Models Used
 
 - Logistic Regression
 - Naive Bayes
 - Support Vector Machine (SVM)
-- *(Optional)* BERT for advanced sentiment classification
 
-## 📊 Evaluation Metrics
+
+##  Evaluation Metrics
 
 - Accuracy
 - Confusion Matrix
 - Precision, Recall, F1 Score
 - ROC Curve (for binary sentiment tasks)
 
-## 🔍 Sample Insights
+##  Sample Insights
 
 - Majority of reviews are positive, followed by negative
 - Frequent keywords in negative reviews: *“bad”*, *“worst”*, *“return”*
 - Positive reviews highlight *“great quality”*, *“fast delivery”*
 
-## 📈 Visualizations
+## Visualizations
 
 - Word clouds for each sentiment
 - Sentiment distribution pie chart
 - Review length vs sentiment
 - Model performance comparison bar chart
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 # Clone the repo
